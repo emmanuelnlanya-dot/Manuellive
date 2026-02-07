@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ✅ CHANGE TITLE -->
+    <title>Contact Us | Pharmacy Inventory Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Hi.jpg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Hi.jpg" alt="PharmacyStock Logo" width="50">
+                <h1>PharmacyStock</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="request service.html">Request Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <!-- ✅ PERSONALIZE: Add your contact information -->
+                <p><strong>Address:</strong> Opposite GCB Bank, Community 5, Tema - Ghana</p>
+                <p><strong>Phone:</strong> +233 554 689 567</p>
+                <p><strong>Email:</strong> info@pharmacystock.com</p>
+                <p><strong>Hours:</strong> Mon-Sun 9am-9am</p>
+                
+                <!-- ✅ ABSOLUTE LINK: Replace with your actual link -->
+                <p>Follow us on <a href="https://www.twitter.com/inventorypro" target="_blank">Twitter</a></p>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="contactName">Your Name *</label>
+                        <input type="text" id="contactName" name="contactName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactEmail">Email *</label>
+                        <input type="email" id="contactEmail" name="contactEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>How did you hear about us?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="source" value="search"> Social Media</label>
+                            <label><input type="radio" name="source" value="friend"> Friend/Colleague</label>
+                            <label><input type="radio" name="source" value="ad"> Advertisement</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="newsletter" value="yes">
+                            Subscribe to newsletter
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PharmacyStock. All rights reserved.</p>
+        <!-- ✅ ABSOLUTE LINK: Change to your actual external link -->
+        <p>Visit our <a href="https://top-uppharmacy.com" target="_blank">Partner Portal</a> for more resources.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ✅ CHANGE TITLE: Personalize your site title -->
+    <title>Home | Pharmacy Inventory Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Hi.jpg" type="image/jpg">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <div class="logo">
+                <!-- ✅ CHANGE: Replace with your logo image -->
+                <img src="Hi.jpg" alt="PharmacyStock Logo" width="50">
+                <h1>PharmacyStock</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="request service.html">Request Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Welcome to PharmacyStock</h2>
+            <p>Our platform allows you to have a look at our available items. We spend more time caring for our patients, keep medications organized, shelves stocked and our patients served without interruption. Your complete solution for inventory management</p>
+            
+            <!-- ✅ ROLLOVER IMAGE: Replace these images with your own -->
+            <div class="rollover-container">
+                <a href="inventory.html" class="rollover-link">
+                    <img src="IMG_1588.JPG" 
+                         alt="View Inventory" 
+                         class="rollover-img"
+                         onmouseover="this.src='IMG_1589.JPG'"
+                         onmouseout="this.src='IMG_1588.JPG'">
+                </a>
+                <p>Hover over the image above to see the rollover effect!</p>
+            </div>
+        </section>
+
+        <!-- Features Section with Table for Layout (invisible borders) -->
+        <section class="features">
+            <h3>Why Choose Our System?</h3>
+            <!-- ✅ TABLE 1: Invisible borders for layout -->
+            <table class="layout-table">
+                <tr>
+                    <td class="feature-cell">
+                        <h4>Easy Tracking</h4>
+                        <p>Track all your inventory items in real-time.</p>
+                    </td>
+                    <td class="feature-cell">
+                        <h4>24hrs Pharmaceutical Services</h4>
+                        <p>We offer 24hrs service from Monday to Sunday.</p>
+                    </td>
+                    <td class="feature-cell">
+                        <h4>Home And Office Delivery Services</h4>
+                        <p>Sit at the comfort of your home or office and order whatever you need online.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- ✅ HYPERLINKED IMAGE: Replace with your image -->
+        <section class="cta">
+            <h3>Ready to Get Started?</h3>
+            <a href="shop.html" class="image-link">
+                <img src="IMG_1587.JPG" alt="Shop" class="hyperlinked-img">
+                <span class="img-text">Click image to add new items</span>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PharmacyStock. All rights reserved.</p>
+        <!-- ✅ ABSOLUTE LINK: Change to your actual external link -->
+        <p>Visit our <a href="https://top-uppharmacy.com" target="_blank">Partner Portal</a> for more resources.</p>
+    </footer>
+
+</body>
+</html>

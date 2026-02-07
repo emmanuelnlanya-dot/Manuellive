@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ✅ CHANGE TITLE -->
+    <title>Request Service | Pharmacy Inventory Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Hi.jpg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Hi.jpg" alt="PharmacyStock Logo" width="50">
+                <h1>PharmacyStock</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="request service.html">Request Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fill The Form To Place An Order.</h2>
+        
+        <!-- ✅ FORM WITH REQUIRED ELEMENTS -->
+        <form action="#" method="post" class="inventory-form">
+            <!-- TEXT FIELDS (2 required) -->
+            <div class="form-group">
+                <label for="itemName">Item Name *</label>
+                <input type="text" id="itemName" name="itemName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="itemDescription">Description</label>
+                <textarea id="itemDescription" name="itemDescription" rows="3"></textarea>
+            </div>
+            
+            <!-- ✅ RADIO BUTTONS (2 required) -->
+            <div class="form-group">
+                <label>Priority Level *</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="priority" value="low" checked>
+                        Low Priority
+                    </label>
+                    <label>
+                        <input type="radio" name="priority" value="high">
+                        High Priority
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Another set of radio buttons -->
+            <div class="form-group">
+                <label>Storage Type *</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="storage" value="shelf">
+                        Shelf Storage
+                    </label>
+                    <label>
+                        <input type="radio" name="storage" value="warehouse">
+                        Warehouse Storage
+                    </label>
+                </div>
+            </div>
+            
+            <!-- ✅ CHECKBOXES (2 required) -->
+            <div class="form-group">
+                <label>Additional Options</label>
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="notifications" value="email">
+                        Send email notifications
+                    </label>
+                    <label>
+                        <input type="checkbox" name="notifications" value="sms">
+                        Send SMS notifications
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Another set of checkboxes -->
+            <div class="form-group">
+                <label>Item Features</label>
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="features" value="fragile">
+                        Fragile Item
+                    </label>
+                    <label>
+                        <input type="checkbox" name="features" value="perishable">
+                        Perishable Item
+                    </label>
+                </div>
+            </div>
+            
+            <!-- More text fields -->
+            <div class="form-group">
+                <label for="quantity">Quantity *</label>
+                <input type="number" id="quantity" name="quantity" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="price">Receiver's Name</label>
+                <input type="text" id="receiver" name="receiver">
+            </div>
+            
+            <div class="form-group">
+                <label for="supplier">Receiver's Number</label>
+                <input type="number" id="receiver" name="receiver">
+            </div>
+            
+            <!-- Submit button -->
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Add to Inventory</button>
+                <button type="reset" class="reset-btn">Clear Form</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PharmacyStock. All rights reserved.</p>
+        <!-- ✅ ABSOLUTE LINK: Change to your actual external link -->
+        <p>Visit our <a href="https://top-uppharmacy.com" target="_blank">Partner Portal</a> for more resources.</p>
+    </footer>
+</body>
+</html>
